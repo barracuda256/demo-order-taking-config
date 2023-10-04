@@ -9,7 +9,3 @@ spring:
                 predicates:
                     - Path=/main/test
                     - Method=GET
-
-eureka.client:
-    register-with-eureka: false
-    fetch-registry: false
