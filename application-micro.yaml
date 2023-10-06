@@ -1,2 +1,9 @@
 server.port: 0
 eureka.instance.instance-id: '${spring.application.name}:${random.uuid}'
+
+spring:
+  datasource:
+    url: ${POSTGRES_APP_URL:jdbc:postgresql://localhost:5432/demo?createDatabaseIfNotExist=true}
+    username: ${POSTGRES_APP_USER:postgres}
+    password: ${POSTGRES_APP_PASSWORD:password}
+    
