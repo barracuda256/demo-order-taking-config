@@ -9,3 +9,8 @@ spring:
                 predicates:
                     - Path=/main/test
                     - Method=GET
+            -   id: order
+                uri: lb://order-taking
+                predicates:
+                    - Path=/orders/order
+                    - Method=POST
