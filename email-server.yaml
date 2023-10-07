@@ -6,7 +6,7 @@ spring:
     host: smtp.gmail.com
     port: 465
     username: demo.order256@gmail.com
-    password: todo
+    password: apxzgsxxjsqfrqkg
 
     protocol: smtp
     properties:
