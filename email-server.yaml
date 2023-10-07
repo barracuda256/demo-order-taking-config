@@ -1,11 +1,11 @@
-email.sender: todo@gmail.com
+email.sender: demo.order256@gmail.com
 
 spring:
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
     port: 465
-    username: todo@gmail.com
+    username: demo.order256@gmail.com
     password: todo
 
     protocol: smtp
