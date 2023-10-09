@@ -7,3 +7,4 @@ spring:
     username: ${POSTGRES_APP_USER:postgres}
     password: ${POSTGRES_APP_PASSWORD:password}
     
+    jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
